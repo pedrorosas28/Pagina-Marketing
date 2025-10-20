@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+archiveVersion = 1;
+classes = {
+};
+objectVersion = 56;
+objects = {
+
+/* Begin PBXBuildFile section */
+1D75A5F428D14E8400A1E1AA /* HotelLopesanIPadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D75A5ED28D14E8400A1E1AA /* HotelLopesanIPadApp.swift */; };
+1D75A5F528D14E8400A1E1AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D75A5EE28D14E8400A1E1AA /* ContentView.swift */; };
+1D75A5F628D14E8400A1E1AA /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D75A5EF28D14E8400A1E1AA /* WebView.swift */; };
+1D75A5F828D14E8400A1E1AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D75A5F028D14E8400A1E1AA /* Assets.xcassets */; };
+1D75A5F928D14E8400A1E1AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D75A5F128D14E8400A1E1AA /* Preview Assets.xcassets */; };
+1D75A5FB28D14E8400A1E1AA /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 1D75A5F328D14E8400A1E1AA /* index.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+1D75A5ED28D14E8400A1E1AA /* HotelLopesanIPadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelLopesanIPadApp.swift; sourceTree = "<group>"; };
+1D75A5EE28D14E8400A1E1AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+1D75A5EF28D14E8400A1E1AA /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+1D75A5F028D14E8400A1E1AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+1D75A5F128D14E8400A1E1AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+1D75A5F328D14E8400A1E1AA /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+1D75A5FA28D14E8400A1E1AA /* HotelLopesanIPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotelLopesanIPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+1D75A5E828D14E8400A1E1AA = {
+isa = PBXGroup;
+children = (
+1D75A5ED28D14E8400A1E1AA /* HotelLopesanIPadApp.swift */,
+1D75A5EE28D14E8400A1E1AA /* ContentView.swift */,
+1D75A5EF28D14E8400A1E1AA /* WebView.swift */,
+1D75A5F728D14E8400A1E1AA /* Resources */,
+);
+path = HotelLopesanIPad;
+sourceTree = "<group>";
+};
+1D75A5E928D14E8400A1E1AA = {
+isa = PBXGroup;
+children = (
+1D75A5E828D14E8400A1E1AA,
+1D75A5EA28D14E8400A1E1AA /* Products */,
+);
+sourceTree = "<group>";
+};
+1D75A5EA28D14E8400A1E1AA /* Products */ = {
+isa = PBXGroup;
+children = (
+1D75A5FA28D14E8400A1E1AA /* HotelLopesanIPad.app */,
+);
+name = Products;
+sourceTree = "<group>";
+};
+1D75A5F728D14E8400A1E1AA /* Resources */ = {
+isa = PBXGroup;
+children = (
+1D75A5F028D14E8400A1E1AA /* Assets.xcassets */,
+1D75A5F128D14E8400A1E1AA /* Preview Assets.xcassets */,
+1D75A5F328D14E8400A1E1AA /* index.html */,
+);
+path = Resources;
+sourceTree = "<group>";
+};
+/* End PBXGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+1D75A5EA28D14E8400A1E1AB /* Frameworks */ = {
+isa = PBXFrameworksBuildPhase;
+buildActionMask = 2147483647;
+files = (
+);
+runOnlyForDeploymentPostprocessing = 0;
+};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+1D75A5EC28D14E8400A1E1AA /* HotelLopesanIPad */ = {
+isa = PBXNativeTarget;
+buildConfigurationList = 1D75A5FF28D14E8400A1E1AA /* Build configuration list for PBXNativeTarget "HotelLopesanIPad" */;
+buildPhases = (
+1D75A5E928D14E8400A1E1AB /* Sources */,
+1D75A5EA28D14E8400A1E1AB /* Frameworks */,
+1D75A5EB28D14E8400A1E1AB /* Resources */,
+);
+buildRules = (
+);
+dependencies = (
+);
+name = HotelLopesanIPad;
+productName = HotelLopesanIPad;
+productReference = 1D75A5FA28D14E8400A1E1AA /* HotelLopesanIPad.app */;
+productType = "com.apple.product-type.application";
+};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+1D75A5EB28D14E8400A1E1AA /* Project object */ = {
+isa = PBXProject;
+attributes = {
+LastSwiftUpdateCheck = 1500;
+LastUpgradeCheck = 1500;
+ORGANIZATIONNAME = "Hotel Lopesan";
+TargetAttributes = {
+1D75A5EC28D14E8400A1E1AA = {
+DevelopmentTeam = "";
+ProvisioningStyle = Automatic;
+};
+};
+};
+buildConfigurationList = 1D75A5FE28D14E8400A1E1AA /* Build configuration list for PBXProject "HotelLopesanIPad" */;
+compatibilityVersion = "Xcode 15.0";
+developmentRegion = en;
+hasScannedForEncodings = 0;
+knownRegions = (
+en,
+Base,
+);
+mainGroup = 1D75A5E928D14E8400A1E1AA;
+productRefGroup = 1D75A5EA28D14E8400A1E1AA /* Products */;
+projectDirPath = "";
+projectRoot = "";
+targets = (
+1D75A5EC28D14E8400A1E1AA /* HotelLopesanIPad */,
+);
+};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+1D75A5EB28D14E8400A1E1AB /* Resources */ = {
+isa = PBXResourcesBuildPhase;
+buildActionMask = 2147483647;
+files = (
+1D75A5F828D14E8400A1E1AA /* Assets.xcassets in Resources */,
+1D75A5F928D14E8400A1E1AA /* Preview Assets.xcassets in Resources */,
+1D75A5FB28D14E8400A1E1AA /* index.html in Resources */,
+);
+runOnlyForDeploymentPostprocessing = 0;
+};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+1D75A5E928D14E8400A1E1AB /* Sources */ = {
+isa = PBXSourcesBuildPhase;
+buildActionMask = 2147483647;
+files = (
+1D75A5F428D14E8400A1E1AA /* HotelLopesanIPadApp.swift in Sources */,
+1D75A5F528D14E8400A1E1AA /* ContentView.swift in Sources */,
+1D75A5F628D14E8400A1E1AA /* WebView.swift in Sources */,
+);
+runOnlyForDeploymentPostprocessing = 0;
+};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+1D75A60028D14E8400A1E1AA /* Debug */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+ASSETCATALOG_COMPILER_APPICON_NAME = "";
+CODE_SIGN_STYLE = Automatic;
+CURRENT_PROJECT_VERSION = 1;
+DEVELOPMENT_ASSET_PATHS = "\"HotelLopesanIPad/Preview Content\"";
+DEVELOPMENT_TEAM = "";
+ENABLE_PREVIEWS = YES;
+GENERATE_INFOPLIST_FILE = YES;
+INFOPLIST_KEY_CFBundleDisplayName = "Hotel Lopesan";
+INFOPLIST_KEY_LSRequiresIPhoneOS = YES;
+INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait";
+INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDefault;
+IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+MARKETING_VERSION = 1.0;
+PRODUCT_BUNDLE_IDENTIFIER = com.example.hotellopesan.ipad;
+PRODUCT_NAME = "HotelLopesanIPad";
+SDKROOT = iphoneos;
+SWIFT_EMIT_LOC_STRINGS = YES;
+SWIFT_VERSION = 5.0;
+TARGETED_DEVICE_FAMILY = 2;
+VALIDATE_PRODUCT = YES;
+};
+name = Debug;
+};
+1D75A60128D14E8400A1E1AA /* Release */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+ASSETCATALOG_COMPILER_APPICON_NAME = "";
+CODE_SIGN_STYLE = Automatic;
+CURRENT_PROJECT_VERSION = 1;
+DEVELOPMENT_ASSET_PATHS = "\"HotelLopesanIPad/Preview Content\"";
+DEVELOPMENT_TEAM = "";
+ENABLE_PREVIEWS = YES;
+GENERATE_INFOPLIST_FILE = YES;
+INFOPLIST_KEY_CFBundleDisplayName = "Hotel Lopesan";
+INFOPLIST_KEY_LSRequiresIPhoneOS = YES;
+INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait";
+INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDefault;
+IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+MARKETING_VERSION = 1.0;
+PRODUCT_BUNDLE_IDENTIFIER = com.example.hotellopesan.ipad;
+PRODUCT_NAME = "HotelLopesanIPad";
+SDKROOT = iphoneos;
+SWIFT_EMIT_LOC_STRINGS = YES;
+SWIFT_VERSION = 5.0;
+TARGETED_DEVICE_FAMILY = 2;
+};
+name = Release;
+};
+1D75A60228D14E8400A1E1AA /* Debug */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+ALWAYS_SEARCH_USER_PATHS = NO;
+CLANG_ANALYZER_NONNULL = YES;
+CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+CLANG_ENABLE_MODULES = YES;
+CLANG_ENABLE_OBJC_ARC = YES;
+CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+CLANG_WARN_BOOL_CONVERSION = YES;
+CLANG_WARN_COMMA = YES;
+CLANG_WARN_CONSTANT_CONVERSION = YES;
+CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+CLANG_WARN_EMPTY_BODY = YES;
+CLANG_WARN_ENUM_CONVERSION = YES;
+CLANG_WARN_INFINITE_RECURSION = YES;
+CLANG_WARN_INT_CONVERSION = YES;
+CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+CLANG_WARN_STRICT_PROTOTYPES = YES;
+CLANG_WARN_SUSPICIOUS_MOVE = YES;
+CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+CODE_SIGN_STYLE = Automatic;
+COPY_PHASE_STRIP = NO;
+DEBUG_INFORMATION_FORMAT = dwarf;
+ENABLE_STRICT_OBJC_MSGSEND = YES;
+ENABLE_TESTABILITY = YES;
+GCC_C_LANGUAGE_STANDARD = gnu11;
+GCC_DYNAMIC_NO_PIC = NO;
+GCC_NO_COMMON_BLOCKS = YES;
+GCC_OPTIMIZATION_LEVEL = 0;
+GCC_PREPROCESSOR_DEFINITIONS = (
+"DEBUG=1",
+"$(inherited)",
+);
+GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+GCC_WARN_UNDECLARED_SELECTOR = YES;
+GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+GCC_WARN_UNUSED_FUNCTION = YES;
+GCC_WARN_UNUSED_VARIABLE = YES;
+IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+MTL_FAST_MATH = YES;
+ONLY_ACTIVE_ARCH = YES;
+SDKROOT = iphoneos;
+SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+};
+name = Debug;
+};
+1D75A60328D14E8400A1E1AA /* Release */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+ALWAYS_SEARCH_USER_PATHS = NO;
+CLANG_ANALYZER_NONNULL = YES;
+CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+CLANG_ENABLE_MODULES = YES;
+CLANG_ENABLE_OBJC_ARC = YES;
+CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+CLANG_WARN_BOOL_CONVERSION = YES;
+CLANG_WARN_COMMA = YES;
+CLANG_WARN_CONSTANT_CONVERSION = YES;
+CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+CLANG_WARN_EMPTY_BODY = YES;
+CLANG_WARN_ENUM_CONVERSION = YES;
+CLANG_WARN_INFINITE_RECURSION = YES;
+CLANG_WARN_INT_CONVERSION = YES;
+CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+CLANG_WARN_STRICT_PROTOTYPES = YES;
+CLANG_WARN_SUSPICIOUS_MOVE = YES;
+CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+CODE_SIGN_STYLE = Automatic;
+COPY_PHASE_STRIP = NO;
+DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+ENABLE_NS_ASSERTIONS = NO;
+ENABLE_STRICT_OBJC_MSGSEND = YES;
+GCC_C_LANGUAGE_STANDARD = gnu11;
+GCC_NO_COMMON_BLOCKS = YES;
+GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+GCC_WARN_UNDECLARED_SELECTOR = YES;
+GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+GCC_WARN_UNUSED_FUNCTION = YES;
+GCC_WARN_UNUSED_VARIABLE = YES;
+IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+MTL_ENABLE_DEBUG_INFO = NO;
+MTL_FAST_MATH = YES;
+SDKROOT = iphoneos;
+SWIFT_COMPILATION_MODE = wholemodule;
+SWIFT_OPTIMIZATION_LEVEL = "-O";
+};
+name = Release;
+};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+1D75A5FE28D14E8400A1E1AA /* Build configuration list for PBXProject "HotelLopesanIPad" */ = {
+isa = XCConfigurationList;
+buildConfigurations = (
+1D75A60228D14E8400A1E1AA /* Debug */,
+1D75A60328D14E8400A1E1AA /* Release */,
+);
+defaultConfigurationIsVisible = 0;
+defaultConfigurationName = Release;
+};
+1D75A5FF28D14E8400A1E1AA /* Build configuration list for PBXNativeTarget "HotelLopesanIPad" */ = {
+isa = XCConfigurationList;
+buildConfigurations = (
+1D75A60028D14E8400A1E1AA /* Debug */,
+1D75A60128D14E8400A1E1AA /* Release */,
+);
+defaultConfigurationIsVisible = 0;
+defaultConfigurationName = Release;
+};
+/* End XCConfigurationList section */
+
+};
+rootObject = 1D75A5EB28D14E8400A1E1AA /* Project object */;
+}
