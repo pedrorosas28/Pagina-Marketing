@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hotel Lopesan</string>
+    <string name="view_map">Ver mapa</string>
+    <string name="open_in_google_maps">Abrir en Google Maps</string>
+    <string name="hotel_map_marker_title">Hotel Lopesan Costa Meloneras</string>
+</resources>
